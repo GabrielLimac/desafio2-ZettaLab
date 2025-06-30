@@ -428,7 +428,7 @@ Verifica se a API está funcionando corretamente.
 {
   "status": "healthy",
   "message": "API de Gerenciamento de Tarefas está funcionando",
-  "version": "1.0.0"
+  "version": "1.1"
 }
 ```
 

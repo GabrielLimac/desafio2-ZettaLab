@@ -25,7 +25,7 @@ Uma API REST completa para gerenciamento de tarefas desenvolvida com Flask, SQLi
 ## 📁 Estrutura do Projeto
 
 ```
-todo-api/
+desafio_2/
 ├── src/
 │   ├── models/          # Modelos de dados (User, Task)
 │   ├── routes/          # Rotas da API (auth, tasks)
@@ -52,7 +52,7 @@ todo-api/
 ### 1. Clonar o repositório
 
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/GabrielLimac/desafio2-ZettaLab
 cd todo-api
 ```
 
@@ -156,10 +156,10 @@ pytest tests/test_models.py -v
 
 ```bash
 # Construir imagem
-docker build -t todo-api .
+docker build -t desafio_2 .
 
 # Executar container
-docker run -p 5001:5001 todo-api
+docker run -p 5001:5001 desafio_2
 ```
 
 ### Executar com Docker Compose
@@ -204,13 +204,10 @@ Authorization: Bearer <seu-token-jwt>
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
 
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
 
 ## 👥 Autor
 
-Desenvolvido como parte de um projeto de demonstração de API REST com Flask.
+Desenvolvido como parte do processo seletivo do ZettaLab de demonstração de API REST com Flask.
 
 ---
 
