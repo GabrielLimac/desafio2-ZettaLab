@@ -25,7 +25,7 @@ Este projeto consiste em uma **API REST completa para gerenciamento de tarefas (
 
 ### Estrutura do Projeto
 ```
-todo-api/
+desafio_2/
 ├── src/
 │   ├── models/          # Modelos de dados (User, Task)
 │   ├── routes/          # Controllers/Rotas da API
